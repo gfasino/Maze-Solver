@@ -1,0 +1,4 @@
+var searchData=
+[
+  ['add',['add',['../class_generic_manager.html#a1c430ae229c90b9ad664f7acbba9c9c9',1,'GenericManager::add(std::vector&lt; Node *&gt; &amp;q)=0'],['../class_generic_manager.html#a7edb80e0412477b7ce6ee8281dcca1e4',1,'GenericManager::add(Node *q)=0'],['../class_list_manager.html#ae5dac46af82451bee9a76c7829d1a847',1,'ListManager::add(Node *n)'],['../class_list_manager.html#a895a64d520e4f340ada7f47711400cbd',1,'ListManager::add(std::vector&lt; Node *&gt; &amp;q)'],['../class_list_manager_he1.html#aec09f9931b919d7603742e66bedd1a0f',1,'ListManagerHe1::add()'],['../class_list_manager_he2.html#a6532d47d86a8e87ca257302b31c7ae66',1,'ListManagerHe2::add()'],['../class_queue_manager.html#aa832dce6379dd0eabce9a04b0b961916',1,'QueueManager::add(std::vector&lt; Node *&gt; &amp;q)'],['../class_queue_manager.html#a8e5faeb48693eab201bbd4ea444b7541',1,'QueueManager::add(Node *n)']]]
+];

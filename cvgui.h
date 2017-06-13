@@ -5,7 +5,6 @@
 #include "visiblematrix.h"
 #include <string>
 #include "graph.h"
-//class Graph;
 
 class CVGui: public VisibleMatrix{
   private:

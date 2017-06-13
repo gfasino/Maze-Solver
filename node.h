@@ -28,11 +28,11 @@ class Node{
 		/** \brief delete this node and the root, if possible*/
 		void remove();
 		/** \brief return node's point coordinate  */
-		Point getCoord();
+		Point& getCoord();
 		/** \brief return node's root pointer*/
 		Node* getRoot() const;
 		/** \brief return Maze's end coordinate*/
-		Point getEnd();
+		Point& getEnd();
 
 		/** \brief set node's point coordinate  */
 		void setCoord(const Point &coord_);
@@ -52,9 +52,7 @@ class Node{
 		bool operator!=(Node& right);
 };
 
-/** \brief streams node's coordinate*/
 std::ostream& operator<<(std::ostream& out, Node n);
-//TODO
 bool operator< (const Node& left, const Node& right);
 bool operator> (const Node& left, const Node& right);
 

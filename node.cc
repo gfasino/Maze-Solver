@@ -27,7 +27,7 @@ void Node::remove() {
 	}
 }
 
-Point Node::getCoord() {
+Point& Node::getCoord() {
 	return coord;
 }
 
@@ -35,7 +35,7 @@ Node* Node::getRoot() const{
 	return root;
 }
 
-Point Node::getEnd() {
+Point& Node::getEnd() {
 	return end;
 }
 

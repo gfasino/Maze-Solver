@@ -48,19 +48,15 @@ GenericManager::~GenericManager(){
 }
 
 ListManager::~ListManager(){
-//	clearAll();
 }
 
 ListManagerHe1::~ListManagerHe1(){
-//	clearAll();
 }
 
 ListManagerHe2::~ListManagerHe2(){
-//	clearAll();
 }
 
 QueueManager::~QueueManager(){
-//	clearAll();
 }
 
 bool ListManager::isNotEmpty(){

@@ -11,7 +11,7 @@
 
 /** \brief provide conversion from image to matrix,
   can load image and save from filesystem, also can display a static image */
-  
+
 class VisibleMatrix{
   protected:
     cv::Mat image;
@@ -50,15 +50,15 @@ class VisibleMatrix{
     virtual void render();
     /** \brief display image in CV's window */
     void showImage();
+    /** \brief call cv's waitkey (needed by cvgui)*/
+    int waitKey(int i);
 
   public:
     /** \brief constructor */
     VisibleMatrix(const char* path, Matrix* m);
     /** \brief distructor */
     virtual ~VisibleMatrix();
-    /** \brief call cv's waitkey*/
-    int waitKey(int i);
-    /** \brief save current displeedimage to file */
+    /** \brief save current image to file */
     bool takeSShot(std::string filepath);
 };
 

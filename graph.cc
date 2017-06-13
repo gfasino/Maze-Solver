@@ -40,7 +40,8 @@ void Graph::changeHeuristic(int type){
   else
     gm = new QueueManager(gm);
   //restart calculation
-  delete old;
+  if(old)
+    delete old;
   if(thd){
     delete thd;
     this->switching = false;
@@ -73,6 +74,7 @@ void Graph::graphThread(Graph* gr){
       std::cout<<"Path found\n";
       //create the vector with path's node
       while(n = n->getRoot()){
+        //TODO std::move
         gr->result.insert(gr->result.begin(), Point(n->getCoord()));
       }
       //stop execution
