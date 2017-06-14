@@ -1,5 +1,7 @@
 # Maze-Solver
-##A C++/OpenCV Maze Solver
+## A C++/OpenCV Maze Solver
 
 dependencies:  
-sudo apt install libopencv-dev
+- C++11
+- OpenCV:  
+sudo apt install libopencv-dev  
