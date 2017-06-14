@@ -2,7 +2,7 @@ CC = g++
 
 SRCS = cvgui.cc graph.cc matrix.cc node.cc visiblematrix.cc dataman.cc main.cc point.cc
 
-CFLAGS= $(shell root-config --cflags)
+CFLAGS= -std=gnu++11
 
 PROG = mazesolver
 
